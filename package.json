@@ -1,0 +1,17 @@
+{
+  "name": "myntra",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This is an extended vertion of Myntra with a feature of fashion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anjali Prasad",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0"
+  }
+}
