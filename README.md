@@ -1,7 +1,11 @@
-# WeForSHE Fashion Hub 🌟 - Myntra HackerRamp 2024
 
-## 👥 Team Details
-**Team Name:** 3 KIDZ
+# WeForSHE Fashion Hub 🌟 - Myntra HackerRamp 2024 
+<p align="center">
+  <img src="/images/myntra.svg" alt="User Profile" width="100" height="100"/>
+</p>
+
+## 👥 Team -- 3 KIDZ
+
 
 **Members:**
 <details>
@@ -61,6 +65,7 @@
     </tr>
   </table>
 </details>
+
 
 ## 🛠️ Problem Statement
 There is a gap between customer engagement and personalized design services for user. 
