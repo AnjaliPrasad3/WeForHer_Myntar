@@ -31,8 +31,12 @@
         <p>💎</p>
       </td>
       <td>
-        <a href="https://www.linkedin.com/in/anjali-prasad" target="_blank">LinkedIn</a> | 
-        <a href="https://github.com/anjali-prasad" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/anjali-prasad-029916215/" target="_blank">
+            <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+          </a>
+          <a href="https://github.com/AnjaliPrasad3" target="_blank">
+            <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+          </a>
       </td>
     </tr>
   </table>
@@ -47,8 +51,12 @@
         <p>💎</p>
       </td>
       <td>
-        <a href="https://www.linkedin.com/in/supriya-kashyap" target="_blank">LinkedIn</a> | 
-        <a href="https://github.com/supriya-kashyap" target="_blank">GitHub</a>
+       <a href="https://www.linkedin.com/in/supriya-kashyap-3b9bb5249/" target="_blank">
+            <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+          </a>
+          <a href="https://github.com/Sup61275" target="_blank">
+            <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+          </a>
       </td>
     </tr>
   </table>
