@@ -1,7 +1,7 @@
-import React,{Fragment} from 'react'
-import {Casual, Formal, SemiFormal, Festive, Sporty, Beachwear, Loungewear, Travel, SpecialEvents, Professional} from '../NavbarSub.js'
-import { useTransition, animated } from 'react-spring'
+import React, { Fragment } from 'react';
 import { Link } from "react-router-dom";
+import { animated, useTransition } from 'react-spring';
+import { Beachwear, Casual, Festive, Formal, Loungewear, Professional, SemiFormal, SpecialEvents, Sporty, Travel } from '../NavbarSub.js';
 
 const GlamGrid = ({show, CMenu, parentCallback}) => {
   const transitions = useTransition(show, {

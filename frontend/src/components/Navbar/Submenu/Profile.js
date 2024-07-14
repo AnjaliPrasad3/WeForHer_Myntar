@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
-import { useTransition, animated } from 'react-spring'
 import { Link } from 'react-router-dom'
+import { animated, useTransition } from 'react-spring'
 //import { useDispatch } from 'react-redux'
 //import { useAlert } from 'react-alert'
 
@@ -29,7 +29,7 @@ const Profile = ({ show, CMenu, parentCallback}) => {
               <h1 className='font1 font-extralight text-sm '>To access account and manage orders  <br /></h1>
 
               <div><br />
-                <Link to='/dashboard' className='font1 hover:font-semibold'>Dashboard</Link>
+                <Link to='/Designer' className='font1 hover:font-semibold'>Dashboard</Link>
               </div>
 
 

@@ -28,6 +28,91 @@
   color: #61dafb;
 }
 
+.chat-box {
+  height: 200px; /* Or adjust as needed */
+  overflow-y: scroll;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  margin-bottom: 8px;
+}
+
+.message p {
+  display: inline-block;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.bg-purple-500 {
+  background-color: #ff905a;
+}
+
+.bg-purple-600 {
+  background-color: #f7a277;
+}
+
+.bg-purple-100 {
+  background-color: #c4ae95;
+}
+
+.bg-purple-200 {
+  background-color: #f1b597;
+}
+
+.bg-gray-50 {
+  background-color: #f9fafb;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-gray-800 {
+  color: #2d3748;
+}
+
+.text-gray-600 {
+  color: #dfa577;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.p-2 {
+  padding: 8px;
+}
+
+.p-4 {
+  padding: 16px;
+}
+
+.rounded-md {
+  border-radius: 8px;
+}
+
+.rounded-lg {
+  border-radius: 12px;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:bg-purple-100:hover {
+  background-color:#dfa577 ;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

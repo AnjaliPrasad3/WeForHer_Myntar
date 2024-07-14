@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react'
+import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 
 const sidebar = () => {
@@ -7,8 +7,33 @@ const sidebar = () => {
         <div className=''>
          <ul>
            <Link to="/Glamsales">
-           <li className='text-sm py-6 border-b-[1px] mr-6 text-slate-500'>OVERVIEW</li>
+           <li className='text-sm py-4 border-b-[1px] mr-4 text-slate-500'>OVERVIEW</li>
            </Link>
+
+           <Link to="/Idea">
+           <h1 className='text-slate-400 text-sm pt-6'>Idea</h1>
+           </Link>
+           <Link to="/AddIdea">
+           <li className='text-sm pb-4 border-b-[1px] mr-6 text-slate-500'>Add Idea</li>
+           </Link>
+
+           <Link to="/Message">
+           <h1 className='text-slate-400 text-sm pt-6 border-b-[1px] mr-6'>Messages</h1>
+           </Link>
+           
+
+           {/* new section */}
+           <Link to="/PostPage">
+           <h1 className='text-slate-400 text-sm pt-6'>Your Designs</h1>
+           </Link>
+           <Link to="/PostPage">
+           <li className='text-sm pt-3 mr-6 text-slate-500'>Posts</li>
+           </Link>
+           <Link to="/Draft">
+           <li className='text-sm mr-6 border-b-[1px]  text-slate-500'>Draft</li>
+           </Link>
+           
+
 
            <Link to="/Designer">
            <h1 className='text-slate-400 text-sm pt-6'>Profile</h1>
@@ -22,13 +47,10 @@ const sidebar = () => {
            <Link to="/UpdatePassword">
            <li className='text-sm pb-6 pt-3 border-b-[1px] mr-6 text-slate-500'>Update Password</li>
            </Link>
+           
+           
 
-           <Link to="/Idea">
-           <h1 className='text-slate-400 text-sm pt-6'>Idea</h1>
-           </Link>
-           <Link to="/AddIdea">
-           <li className='text-sm pb-6 border-b-[1px] mr-6 text-slate-500'>Add Idea</li>
-           </Link>
+          
 
          </ul>
         </div>

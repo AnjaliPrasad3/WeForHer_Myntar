@@ -1,19 +1,18 @@
-import React, { Fragment, useState, useCallback } from 'react'
-import './Navbar.css'
-import myntra from '../images/myntra.svg'
+import React, { Fragment, useCallback, useState } from 'react'
+import { BsHandbag, BsHeart } from 'react-icons/bs'
 import { FaRegUser } from 'react-icons/fa'
-import { BsHeart } from 'react-icons/bs'
-import { BsHandbag } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
+import myntra from '../images/myntra.svg'
+import './Navbar.css'
 import Search from './Search.js'
-import Men from './Submenu/Men'
-import Women from './Submenu/Women'
-import Kids from './Submenu/Kids'
-import Home from './Submenu/Home'
 import Beauty from './Submenu/Beauty'
-import Studio from './Submenu/Studio'
-import Profile from './Submenu/Profile'
 import GlamGrid from './Submenu/GlamGrid.js'
-import {Link} from 'react-router-dom'
+import Home from './Submenu/Home'
+import Kids from './Submenu/Kids'
+import Men from './Submenu/Men'
+import Profile from './Submenu/Profile'
+import Studio from './Submenu/Studio'
+import Women from './Submenu/Women'
 
 
 const Navbar = ({user}) => {
@@ -92,40 +91,40 @@ const Navbar = ({user}) => {
             <li className='w-max flex  justify-center items-center border-4 border-transparent cborder1'
               onMouseEnter={() => (setMenu1('block'), setShow1(true))} onMouseLeave={() => (setMenu1('hidden'), setShow1(false))}
             >
-              <h1 className='px-3 ' >MEN</h1>
+              <h1 className='px-2 ' >MEN</h1>
             </li>
             </Link>
             <li className='w-max flex justify-center items-center border-4 border-transparent cborder2 '
               onMouseEnter={() => (setMenu2('block'), setShow2(true))} onMouseLeave={() => (setMenu2('hidden'), setShow2(false))}
             >
 
-              <h1 className='px-3'>WOMEN</h1>
+              <h1 className='px-2'>WOMEN</h1>
             </li>
             <li className='w-max flex justify-center items-center border-4 border-transparent cborder3'
               onMouseEnter={() => (setMenu3('block'), setShow3(true))} onMouseLeave={() => (setMenu3('hidden'), setShow3(false))}
             >
-              <h1 className='px-3'>KIDS</h1>
+              <h1 className='px-2'>KIDS</h1>
             </li>
             <li className='w-46 flex justify-center items-center border-4 border-transparent cborder4'
               onMouseEnter={() => (setMenu4('block'), setShow4(true))} onMouseLeave={() => (setMenu4('hidden'), setShow4(false))}
             >
-              <h1 className='px-3'>HOME&nbsp;&&nbsp;LIVING</h1>
+              <h1 className='px-2'>HOME&nbsp;&&nbsp;LIVING</h1>
             </li>
             <li className='w-max flex justify-center items-center border-4 border-transparent cborder5'
               onMouseEnter={() => (setMenu5('block'), setShow5(true))} onMouseLeave={() => (setMenu5('hidden'), setShow5(false))}
             >
-              <h1 className='px-3'>BEAUTY</h1>
+              <h1 className='px-2'>BEAUTY</h1>
             </li>
             <li className='w-max flex justify-center items-center border-4 border-transparent cborder6'
               onMouseEnter={() => (setMenu6('block'), setShow6(true))} onMouseLeave={() => (setMenu6('hidden'), setShow6(false))}
             >
-              <h1 className='px-3 relative'>STUDIO<span className='text-[#fb56c1] text-[10px] absolute -top-1/2'>new</span></h1>
+              <h1 className='px-2 relative'>STUDIO<span className='text-[#fb56c1] text-[10px] absolute -top-1/2'>new</span></h1>
             </li>
             <Link className='w-max px-3 flex items-stretch' to="/GlamGrid">
             <li className='w-max flex  justify-center items-center border-4 border-transparent cborder1'
               onMouseEnter={() => (setMenu8('block'), setShow8(true))} onMouseLeave={() => (setMenu8('hidden'), setShow8(false))}
             >
-              <h1 className='px-3 relative'>GlamGrid<span className='text-[#fb56c1] text-[10px] absolute -top-1/2'>new</span></h1>
+              <h1 className='px-2 relative'>GlamGrid<span className='text-[#fb56c1] text-[10px] absolute -top-1/2'>new</span></h1>
             </li>
             </Link>
           </ul>
