@@ -85,12 +85,22 @@ The "WeForSHE Fashion Hub" within Myntra's ecosystem will:
 
 ### Phase 2: Prototype
 
-| **Image** | **Description** |
-|-----------|-----------------|
-| ![User Profile](path/to/image1.jpg) | **User Profile:** Custom avatars, profile management, and personalized recommendations. |
-| ![Fashion Idea Sharing](path/to/image2.jpg) | **Fashion Idea Sharing:** Upload, store, and retrieve fashion ideas with community interactions. |
-| ![Designer Marketplace](path/to/image3.jpg) | **Designer Marketplace:** Browse, rate, and contact designers with a messaging system for custom orders. |
-| ![Fabric Information](path/to/image4.jpg) | **Fabric Information:** Detailed information on fabrics, their health benefits, and sustainability aspects. |
+
+<table>
+  <tr>
+    <td><img src="/images/p1.png" alt="User Profile" width="400"/></td>
+    <td><img src="/images/p2.png" alt="User Profile" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="/images/p3.png" alt="Fashion Idea Sharing" width="400"/></td>
+    <td><img src="/images/p4.png" alt="User Profile" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="/images/p5.png" alt="Designer Marketplace" width="400"/></td>
+    <td></td>
+  </tr>
+</table>
+
 
 
 ## 🌟 Benefits
